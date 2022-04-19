@@ -67,8 +67,8 @@ public class Runner {
         }
         System.out.println(max-min);
 //        3. Print true if the list contains a 1 next to a 1 somewhere
-        numbers.clear();
-        Collections.addAll(numbers, 1,0,2,13,5,6,1,1,0,2);
+//        numbers.clear();
+//        Collections.addAll(numbers, 1,0,2,13,5,6,1,1,0,2);
         boolean nowOne = false;
 
         for (int value : numbers) {
@@ -97,8 +97,8 @@ public class Runner {
 //
 //          So [7, 13, 2] would have sum of 9.
 
-        numbers.clear();
-        Collections.addAll(numbers, 13,13,2,5,6,7,12,13,2,0,9);
+//        numbers.clear();
+//        Collections.addAll(numbers, 13,13,2,5,6,7,12,13,2,0,9);
 
         boolean was13 = false;
         int newTotal = 0;
